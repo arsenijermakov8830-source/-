@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Галерея</TITLE>
+<STYLE>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: linear-gradient(90deg, #0066CC, #0099FF);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav {
+    background: #003366;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  nav a:hover {
+    background: #0099FF;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    color: #003366;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .gallery-item {
+    width: 220px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #ddd;
+    transition: transform 0.3s;
+  }
+  .gallery-item:hover {
+    transform: scale(1.05);
+    border-color: #0066CC;
+  }
+  .gallery-item img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+  }
+  .gallery-item p {
+    margin: 8px 0 0;
+    font-weight: bold;
+    color: #003366;
+  }
+  footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+</STYLE>
+</HEAD>
+<BODY>
+
+<HEADER>
+  Галерея города
+</HEADER>
+
+<NAV>
+  <A HREF="index.htm">Главная</A>
+  <A HREF="places.htm">Достопримечательности</A>
+  <A HREF="gallery.htm">Галерея</A>
+  <A HREF="contact.htm">Контакты</A>
+</NAV>
+
+<DIV CLASS="container">
+  <H1>Фотографии Екатеринбурга</H1>
+  <DIV CLASS="gallery">
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo1.jpg" ALT="Фото 1">
+      <P>Вечерний город</P>
+    </DIV>
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo2.jpg" ALT="Фото 2">
+      <P>Набережная</P>
+    </DIV>
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo3.jpg" ALT="Фото 3">
+      <P>Цирк</P>
+    </DIV>
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo4.jpg" ALT="Фото 4">
+      <P>Опера</P>
+    </DIV>
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo5.jpg" ALT="Фото 5">
+      <P>Парк</P>
+    </DIV>
+    <DIV CLASS="gallery-item">
+      <IMG SRC="photo6.jpg" ALT="Фото 6">
+      <P>Ночной город</P>
+    </DIV>
+  </DIV>
+</DIV>
+
+<FOOTER>
+  &copy; 2026 Мой любимый город. Все права защищены.
+</FOOTER>
+
+</BODY>
+</HTML>

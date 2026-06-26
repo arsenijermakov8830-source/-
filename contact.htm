@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Контакты</TITLE>
+<STYLE>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: linear-gradient(90deg, #0066CC, #0099FF);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  nav {
+    background: #003366;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  nav a:hover {
+    background: #0099FF;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    color: #003366;
+  }
+  .contact-info {
+    background: #F0F8FF;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #0066CC;
+    margin: 15px 0;
+  }
+  .contact-info p {
+    margin: 5px 0;
+  }
+  form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  form input, form textarea {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  form input[type="submit"], form input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    background: #0066CC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form input[type="reset"] {
+    background: #999;
+  }
+  form input[type="submit"]:hover {
+    background: #004499;
+  }
+  footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+</STYLE>
+</HEAD>
+<BODY>
+
+<HEADER>
+  Контакты
+</HEADER>
+
+<NAV>
+  <A HREF="index.htm">Главная</A>
+  <A HREF="places.htm">Достопримечательности</A>
+  <A HREF="gallery.htm">Галерея</A>
+  <A HREF="contact.htm">Контакты</A>
+</NAV>
+
+<DIV CLASS="container">
+  <H1>Свяжитесь со мной</H1>
+
+  <DIV CLASS="contact-info">
+    <H2>Мои контакты:</H2>
+    <P><B>Телефон:</B> +7 (909) 093-46-44</P>
+    <P><B>Email:</B> arsenijermakov8830@gmail.com</P>
+    <P><B>Адрес:</B> г. Екатеринбург, ул. Бажова, д. 189</P>
+  </DIV>
+
+  <H2>Или напишите сообщение:</H2>
+  <FORM ACTION="mailto:mycity@example.com" METHOD="POST" ENCTYPE="text/plain">
+    <P>
+      <LABEL>Ваше имя:</LABEL>
+      <INPUT TYPE="text" NAME="Имя" SIZE="30" REQUIRED>
+    </P>
+    <P>
+      <LABEL>Ваш Email:</LABEL>
+      <INPUT TYPE="email" NAME="Email" SIZE="30" REQUIRED>
+    </P>
+    <P>
+      <LABEL>Сообщение:</LABEL>
+      <TEXTAREA NAME="Сообщение" ROWS="6" COLS="30" REQUIRED></TEXTAREA>
+    </P>
+    <P>
+      <LABEL></LABEL>
+      <INPUT TYPE="submit" VALUE="Отправить">
+      <INPUT TYPE="reset" VALUE="Очистить">
+    </P>
+  </FORM>
+</DIV>
+
+<FOOTER>
+  &copy; 2026 Мой любимый город. Все права защищены.
+</FOOTER>
+
+</BODY>
+</HTML>
